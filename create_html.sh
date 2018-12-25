@@ -6,11 +6,12 @@ if [ -z "$filepath" ]; then
     echo "filepath is null"
 else
 	filedata='<!DOCTYPE html>\n'
-	filedata=$filedata'<html lang="en">\n'
+	filedata=$filedata'<html lang="zh-cn">\n'
 	filedata=$filedata'\t<head>\n'
-	filedata=$filedata'\t\t<meta charset="UTF-8" />\n'
+	filedata=$filedata'\t\t<meta charset="utf-8" />\n'
 	filedata=$filedata'\t\t<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />\n'
 	filedata=$filedata'\t\t<meta http-equiv="content-type" content="text/html; charset=utf-8" />\n'
+	filedata=$filedata'\t\t<meta name="viewport" content="width=device-width, initial-scale=1" />\n'
 	filedata=$filedata'\t\t<meta name="keywords" content="" />\n'
 	filedata=$filedata'\t\t<meta name="description" content="" />\n'
 	filedata=$filedata'\t\t<title>new html file</title>\n'
